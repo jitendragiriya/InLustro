@@ -84,18 +84,15 @@ export const trafficSourcesData = [
   {
     name: "referral",
     value: 87974,
-    value: 87974,
     percent: 50,
   },
   {
     name: "social media",
     value: 45211,
-    value: 45211,
     percent: 40,
   },
   {
     name: "twitter",
-    value: 21893,
     value: 21893,
     percent: 20,
   },
