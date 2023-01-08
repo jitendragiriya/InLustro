@@ -36,7 +36,7 @@ const LoginModal = ({ open, close }) => {
               </h1>
             </div>
             <form
-              className="w-full p-8 grid grid-cols-1 gap-4"
+              className="w-full p-4 sm:p-8 grid grid-cols-1 gap-4"
               onSubmit={handleSubmit}
             >
               <div className="w-full mb-5 relative">

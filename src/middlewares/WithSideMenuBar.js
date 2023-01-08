@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import SideMenu from "../components/sidemenu/SideMenu";
 import { HAMBURGER } from "../constants";
+import PageDetails from "./PageDetails";
 
 const WithSideMenuBar = () => {
   const [hamburgerOpen, setHamburgerOpen] = useState(HAMBURGER);
@@ -23,6 +24,7 @@ const WithSideMenuBar = () => {
       >
         <Outlet />
       </div>
+      <PageDetails open={hamburgerOpen} setOpen={setHamburgerOpen} />
     </>
   );
 };
